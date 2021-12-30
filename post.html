@@ -85,7 +85,7 @@
                 수정하기
               </button></a
             >
-            <a href="./index.html"
+            <a
               ><button type="button" class="main__row2__btn--remove">
                 삭제하기
               </button></a
@@ -93,6 +93,28 @@
           </div>
         </div>
       </form>
+
+      <!-- FIXME: Modal Component -->
+      <div class="modal">
+        <form>
+          <div class="modal__wrap">
+            <div class="modal__header">해당 게시글을 삭제합니다.</div>
+            <div class="modal__main">정말 삭제하시겠다면 OK를 눌러주세요.</div>
+            <div class="modal__footer">
+              <button type="button">CANCEL</button>
+              <button type="submit">OK</button>
+            </div>
+          </div>
+        </form>
+      </div>
     </main>
+    <script>
+      const modal = document.querySelector(".modal");
+      const removeBtn = document.querySelector(".main__row2__btn--remove");
+
+      removeBtn.addEventListener("click", () => {
+        modal.style.display = "block";
+      });
+    </script>
   </body>
 </html>
