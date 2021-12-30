@@ -15,3 +15,7 @@ body {
   height: 100vh;
   background-color: rgba(224, 224, 224, 0.53);
 }
+a {
+  color: black;
+  text-decoration: none;
+}

@@ -163,3 +163,83 @@ button:hover {
   cursor: pointer;
   background-color: #013b00;
 }
+
+/* FIXME: POST.html - CSS */
+.main__row1__header__post {
+  height: 6%;
+  color: white;
+  display: flex;
+  justify-content: flex-start;
+  font-weight: 700;
+  background-color: #013b00;
+}
+.main__row1__header__post--title {
+  margin-left: 20px;
+  display: flex;
+  align-items: center;
+  width: 75%;
+  letter-spacing: 2px;
+}
+.main__row1__header__post2 {
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.05), 0 1px 0 rgba(0, 0, 0, 0.05);
+  background-color: #7a8752;
+  height: 12%;
+}
+.main__row1__header__post2--subtitle {
+  display: flex;
+  height: 100%;
+}
+.main__row1__header__post2--col1 {
+  width: 50%;
+}
+.main__row1__header__post2--col1 div {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.main__row1__header__post2--col1 div i {
+  margin-left: 30px;
+}
+.main__row1__header__post2--col2 {
+  color: white;
+  width: 50%;
+  display: flex;
+}
+.main__row1__header__post2--col2 span:first-child {
+  min-width: 40%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  padding-bottom: 2px;
+}
+.main__row1__header__post2--col2 span:last-child {
+  display: flex;
+  min-width: 60%;
+  justify-content: center;
+  align-items: flex-end;
+  padding-bottom: 2px;
+}
+
+.main__row1__content {
+  width: 92%;
+  height: 70%;
+  margin: 30px auto;
+}
+.main__row1__content p {
+  max-width: 100%;
+  max-height: 100%;
+}
+.main__row2__btn--edit,
+.main__row2__btn--remove {
+  background-color: rgb(123, 135, 82);
+  width: 150px;
+  /* 텍스트를 세로 정렬하려면? height === line-height */
+  height: 40px;
+  line-height: 40px;
+  border-radius: 21px;
+  font-size: 16px;
+  color: white;
+}
+.main__row2__btn--remove {
+  background-color: tomato;
+}
