@@ -1,8 +1,9 @@
 @import "./reset.css";
-@import "./screens/header.css";
-@import "./screens/main.css";
-
+/* components */
+@import "./components/header.css";
 @import "./components/modal.css";
+/* screens */
+@import "./screens/main.css";
 
 html {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
