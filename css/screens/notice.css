@@ -1,0 +1,128 @@
+/* FIXME: main */
+main {
+  height: 100%;
+  width: 750px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-self: flex-end;
+  margin-top: 65px;
+  /* 화면 위로 쏠림 현상 제거 */
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* FIXME: main-notice */
+.main-notice {
+  margin-top: 30px;
+  height: 72%;
+  background-color: white;
+  border-bottom-left-radius: 19px;
+  border-bottom-right-radius: 19px;
+}
+.notice-header {
+  background-color: rgb(123, 135, 82);
+  height: 6%;
+  color: white;
+  display: flex;
+  justify-content: center;
+  font-weight: 700;
+}
+.notice-header__title {
+  margin-left: 20px;
+  display: flex;
+  align-items: center;
+  width: 75%;
+  letter-spacing: 15px;
+}
+.notice-header__num,
+.notice-header__date {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  letter-spacing: 5px;
+}
+.notice-header__num {
+  width: 10%;
+  border-right: 3px solid white;
+}
+.notice-header__date {
+  width: 15%;
+  border-left: 3px solid white;
+}
+
+/* FIXME: notice-list */
+.notice-list {
+  height: 91%;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  vertical-align: baseline;
+}
+.notice-list li {
+  padding: 12px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.05), 0 1px 0 rgba(0, 0, 0, 0.05);
+}
+.notice-list__title {
+  width: 75%;
+  margin-left: 20px;
+}
+.notice-list__num,
+.notice-list__date {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 13%;
+}
+.notice-list__num {
+  width: 10%;
+}
+.notice-list__date {
+  width: 15%;
+}
+
+/* FIXME: main-footer */
+.main-footer {
+  height: 28%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.notice-page {
+  padding: 20px;
+  display: flex;
+}
+.notice-page__btn {
+  background-color: rgb(94, 94, 94);
+  border-radius: 4px;
+  width: 30px;
+  height: 30px;
+  font-size: 16px;
+  color: white;
+}
+.notice-page__circle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.notice-page__circle .fa-circle {
+  font-size: 12px;
+  margin: 5px;
+  color: rgb(224, 224, 224);
+  margin-right: 3px;
+}
+.notice-btn {
+  background-color: rgb(123, 135, 82);
+  width: 300px;
+  /* 텍스트를 세로 정렬하려면? height === line-height */
+  height: 40px;
+  line-height: 40px;
+  border-radius: 21px;
+  font-size: 16px;
+  color: white;
+}
