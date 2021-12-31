@@ -1,0 +1,80 @@
+/* FIXME: POST.html - CSS */
+.notice-header__row {
+  height: 6%;
+  color: white;
+  display: flex;
+  justify-content: flex-start;
+  font-weight: 700;
+  background-color: #013b00;
+}
+.post__title {
+  margin-left: 20px;
+  display: flex;
+  align-items: center;
+  width: 75%;
+  letter-spacing: 2px;
+}
+.notice-header__row2 {
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.05), 0 1px 0 rgba(0, 0, 0, 0.05);
+  background-color: #7a8752;
+  height: 12%;
+}
+.post__subtitle {
+  display: flex;
+  height: 100%;
+}
+.post__subtitle__left {
+  width: 50%;
+}
+.post__subtitle__left div {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.post__subtitle__left div i {
+  margin-left: 30px;
+}
+.post__subtitle__right {
+  color: white;
+  width: 50%;
+  display: flex;
+}
+.post__subtitle__right span:first-child {
+  min-width: 40%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  padding-bottom: 2px;
+}
+.post__subtitle__right span:last-child {
+  display: flex;
+  min-width: 60%;
+  justify-content: center;
+  align-items: flex-end;
+  padding-bottom: 2px;
+}
+
+.post__content {
+  width: 92%;
+  height: 70%;
+  margin: 30px auto;
+}
+.post__content p {
+  max-width: 100%;
+  max-height: 100%;
+  text-align: justify;
+}
+.post-btns--edit,
+.post-btns--remove {
+  background-color: rgb(123, 135, 82);
+  width: 150px;
+  /* 텍스트를 세로 정렬하려면? height === line-height */
+  height: 40px;
+  line-height: 40px;
+  border-radius: 21px;
+  font-size: 16px;
+  color: white;
+}
+.post-btns--remove {
+  background-color: tomato;
+}
