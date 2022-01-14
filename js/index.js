@@ -35,6 +35,7 @@ function App() {
     return `${yy}-${month}-${date}`;
   };
 
+  const render = () => {};
   $(".notice-btn").addEventListener("click", () => {
     const postTitle = $(".notice-form__title").value;
     const editorData = editor.getData();
@@ -52,7 +53,7 @@ function App() {
 }
 App();
 /* <a href="./post.html">
-  <li>
+  <li data-li-num>
     <div class="notice-list__num">1</div>
     <div class="notice-list__title">첫 게시글 업로드</div>
     <div class="notice-list__date">21-12-30</div>
