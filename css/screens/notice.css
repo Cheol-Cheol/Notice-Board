@@ -85,6 +85,9 @@ main {
 .notice-list__date {
   width: 15%;
 }
+.notice-list li:hover {
+  background-color: #eee;
+}
 
 /* FIXME: main-footer */
 .main-footer {
