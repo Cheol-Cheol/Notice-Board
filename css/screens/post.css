@@ -59,7 +59,7 @@
   height: 70%;
   margin: 30px auto;
 }
-.post__content p {
+.post__content--load {
   max-width: 100%;
   max-height: 100%;
   text-align: justify;
